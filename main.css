@@ -16,7 +16,7 @@ nav img{
     /* border: 1px solid yellow; */
     display: inline-block;
     /* Paren widdth - Logo width - Menu <ul> width */
-    width: calc(100% - 40px - 275px);
+    width: calc(100% - 40px - 280px);
 }
 nav ul{
     list-style: none;
@@ -50,4 +50,73 @@ nav ul li a:hover {
 nav ul li a:active {
     color: green;
 }
+main{
+    width: 100%;
+    min-height: 615px;
+    display: inline-block;
+}
+section{
+    width: 75%;
+    height: 615px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.nintendo{
+    width: 150px;
+}
+.show div{
+    display: none;
+}
 
+.show div:target {
+    margin: 40px;
+    display: block;
+    border: 2px solid darkorange;
+    background-color: beige;
+}
+.space{
+    display: inline-block;
+    /* border: 1px solid red; */
+    width: calc(100% - 75% - 208px);
+}
+main nav{
+    width: 200px;
+    height: 615px;
+    display: inline-block;
+    background-color: gray;
+    vertical-align: top;
+    padding: 20px;
+}
+main nav h2{
+    padding: 10px 10px 40px 10px;
+    font-size: 30px;
+}
+
+main nav ul{
+    text-align: left;
+    padding: 0px 30px 0px 30px;
+}
+
+main nav ul li{
+    display: block;
+}
+
+footer{
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 20px;
+}
+footer nav{
+    padding-top: 0px;
+    padding-bottom: 10px;
+    min-height: 40px;
+}
+footer nav ul{
+    margin-bottom: 0px;}
+.spacer_two{
+    display: inline-block;
+    border: 1px solid white;
+    width: calc(100% - 100px);
+    margin-bottom: 10px;
+}
